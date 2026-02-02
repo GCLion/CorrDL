@@ -21,7 +21,7 @@ python main.py
 
 **Cross-domain Generalization Comparison.** As shown in Table 2, on the COVERAGE test set, CorrDL achieved F1 and AUC scores second only to SAFIRE, a method proposed in 2025. This indicates that CorrDL demonstrates superior anti-interference capability and robustness compared to other methods when handling high-fidelity tampering scenarios.
 
-<img src="C:\Users\wyl12\Desktop\CorrDL-main\image\image-20260202220417762.png" alt="image-20260202220417762" style="zoom:50%;" />
+<img src="./image/image-20260202220417762.png" alt="image-20260202220417762" style="zoom:50%;" />
 
 As shown in Table 3, our CorrDL approach achieves nearoptimal performance across various manipulation types and testing domains. For instance, on the CocoGlide dataset, our method surpasses the second-best approach Re-MTKD by 12.21% in accuracy and 13.88% in F1 score. Notably, because CorrDL explicitly amplifies the pattern conflicts between authentic and forged regions, it exhibits stronger generalization capability across diverse datasets compared to other models.
 
